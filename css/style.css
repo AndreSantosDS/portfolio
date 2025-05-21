@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --asap:"Asap", sans-serif;
+    --inconsolata:"Inconsolata", monospace;
+    --maven-pro: "Maven Pro", sans-serif;
+}
+.section_primary_intro{
+    height: 100vh;
+    background-image: url(../assets/bgIntro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section_primary_intro_center{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1000px;
+}
+.section_primary_intro .section_primary_intro_center .subtitulo{
+    color: #C0C4CE;
+    font-weight: 400;
+    font-family: var(--inconsolata);
+    font-size: 20px;
+    line-height: 120%;
+}
+.section_primary_intro .section_primary_intro_center .span_nome{
+    color: #E3646E;
+}
+.section_primary_intro .section_primary_intro_center .title_fullstack{
+    color: #E2E4E9;
+    font-family: var(--asap);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+}
+.section_primary_intro .section_primary_intro_center .textSm{
+    font-family: var(--maven-pro);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    max-width: 700px;
+    color: #878EA1;
+}
+.section_primary_intro .section_primary_intro_center .tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.section_primary_intro .section_primary_intro_center .tecnologias{
+    gap: 10px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.section_primary_intro .section_primary_intro_center .tecnologias div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #292C34;
+    border-radius: 999px;
+    padding: 10px;
+}
+
+.section_primary_intro .section_primary_intro_center 
+.tecnologias div span{
+    font-family: var(--maven-pro);
+    font-weight: 400;
+    line-height: 140%;
+    color: #C0C4CE;
+}
+
+
+
+
+.section_secundary_projects{
+    min-height: 100vh;
+    background-color: #16181D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_secundary_projects .section_secundary_projects_center{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-bottom: 80px;
+}
+.section_secundary_projects .section_secundary_projects_center img.setaParaBaixo{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.section_secundary_projects .section_secundary_projects_center h3{
+    color: #E3646E;
+    font-family: var(--inconsolata);
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+}
+.section_secundary_projects .section_secundary_projects_center h2{
+    font-family: var(--asap);
+    font-weight: 700;
+    line-height: 120%;
+    color: #E2E4E9;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section_secundary_projects .section_secundary_projects_center .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.section_secundary_projects .section_secundary_projects_center .cards .card{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #292C34;
+    border-radius: 12px;
+    padding: 10px;
+}
+.section_secundary_projects .section_secundary_projects_center .cards .card img{
+    width: 300px;
+    height: 156px;
+    border-radius: 8px;
+}
+.section_secundary_projects .section_secundary_projects_center .cards .card h4{
+    font-family: var(--asap);
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #E2E4E9;
+    align-self: flex-start;
+}
+.section_secundary_projects .section_secundary_projects_center .cards .card p{
+    font-family: var(--maven-pro);
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #C0C4CE;
+}
+
+/*João Marcos*/
+
+.section_third_services{
+    min-height: 70vh;
+    background-color: #0D0E11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services{
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services_devices{
+    border: 2px solid #16181D;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.services_hard{
+    border: 2px solid #16181D;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.services_infinity{
+    border: 2px solid #16181D;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.section_third_services h3{
+    color: #E3646E;
+    font-family: var(--inconsolata);
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section_third_services h2{
+    font-family: var(--asap);
+    font-weight: 700;
+    line-height: 120%;
+    color: #E2E4E9;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section_third_services .services h4{
+    font-family: var(--asap);
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #E2E4E9;
+    align-self: flex-start;
+}
+
+.section_third_services .services p{
+    font-family: var(--maven-pro);
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #C0C4CE;
+}
+
+/*Daniel*/
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+    background-image: url(../assets/Background_Contacts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    gap: 8px;
+}
+
+.contacts h5{
+    color: #BB72E9;
+    font-family: var(--inconsolata);;
+    font-size: 20px;
+}
+
+.contacts h3{
+    font-family: var(--asap);
+    font-weight: 700;
+    color: #E2E4E9;
+    font-size: 24px;
+}
+
+.contacts p{
+    font-family: var(--maven-pro);
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #C0C4CE;
+}
+
+.contacts input[type="radio"] {
+  display: none;
+}
+
+.contacts .card{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px; 
+  background-color: #292C34;
+  width: 300px;
+  height: 60px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.contacts .card img{
+    width: 11px;
+    height: 11px;
+    justify-self:flex-end;
+}
+
+.contacts .card .text-icon-group img{
+    width: 22px;
+    height: 22px;
+}
+
+.text-icon-group {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cards{
+    margin-top: 40px;
+}
+
+.contacts .card:hover{
+    border: 1.5px solid #3996DB;
+}
